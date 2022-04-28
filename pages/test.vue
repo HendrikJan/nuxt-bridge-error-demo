@@ -1,27 +1,13 @@
 <template>
   <div>
-    data:
-    <pre>{{ data }}</pre>
+    This is the page inside the layout
   </div>
 </template>
 
-<script setup>
-const query = `
-  {
-    academicYear(id: 11) {
-      name
-    }
-    courses(year_id: 11) {
-      id
-      name
-      code
-    }
-  }
-`;
+<script setup lang="ts">
 
-const { pending, data, error } = useLazyFetch('/api/graphql', {
-  server: false,
-  method: 'POST',
-  body: { query },
-});
+definePageMeta({
+  layout: "custom"
+})
+
 </script>

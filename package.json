@@ -17,7 +17,7 @@
     "vue-demi": "^0.12.5"
   },
   "devDependencies": {
-    "@nuxt/bridge": "npm:@nuxt/bridge-edge@^3.0.0-27495135.4d1a6ba",
+    "@nuxt/bridge": "npm:@nuxt/bridge-edge@^3.0.0-27498038.f18e68b",
     "typescript": "^4.6.3",
     "ws": "^8.5.0"
   },
