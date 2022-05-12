@@ -1,13 +1,5 @@
 <template>
   <div>
-    This is the page inside the layout
+    This is a test page
   </div>
 </template>
-
-<script setup lang="ts">
-
-definePageMeta({
-  layout: "custom"
-})
-
-</script>
